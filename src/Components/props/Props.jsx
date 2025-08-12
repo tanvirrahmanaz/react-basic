@@ -8,7 +8,7 @@ const Props = ({
     message='default props'
 }) => {
     return (
-        <div className='border p-4 m-2'>
+        <div className='border p-4 m-2 max-w-sm'>
             <h2>Name: {name}  </h2>
             <p>Age: {age}</p>
             <p>Location: {location}</p>
